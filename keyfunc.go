@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/golang-jwt/jwt/v4"
+	"github.com/golang-jwt/jwt"
 )
 
 var (
@@ -13,7 +13,7 @@ var (
 	ErrKID = errors.New("the JWT has an invalid kid")
 )
 
-// Keyfunc is a compatibility function that matches the signature of github.com/golang-jwt/jwt/v4's jwt.Keyfunc
+// Keyfunc is a compatibility function that matches the signature of github.com/golang-jwt/jwt's jwt.Keyfunc
 // function.
 func (j *JWKS) Keyfunc(token *jwt.Token) (interface{}, error) {
 

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/golang-jwt/jwt/v4"
+	"github.com/golang-jwt/jwt"
 
 	"github.com/MicahParks/keyfunc"
 	"github.com/MicahParks/keyfunc/examples/custom/method"

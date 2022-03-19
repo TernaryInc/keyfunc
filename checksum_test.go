@@ -12,7 +12,7 @@ import (
 
 	"github.com/golang-jwt/jwt"
 
-	"github.com/MicahParks/keyfunc"
+	"github.com/TernaryInc/keyfunc"
 )
 
 func TestChecksum(t *testing.T) {
